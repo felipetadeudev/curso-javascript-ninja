@@ -106,21 +106,21 @@ chamada.´
 */
 console.log( 'O resultado da subtração é:' );
 console.log(subtraction(function(x,y){
-  return x + y;
+  return x - y;
 }))
 
 console.log( 'O resultado da multiplicação é:' );
 console.log(multiplication(function(x,y){
-  return x + y;
+  return x * y;
 }))
 
 console.log( 'O resultado da divisão é:' );
 console.log(division(function(x,y){
-  return x + y;
+  return x / y;
 }))
 
 console.log( 'O resto da divisão é:' );
 console.log(mod(function(x,y){
-  return x + y;
+  return x % y;
 }))
 }())
